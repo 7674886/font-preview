@@ -27,7 +27,7 @@ const fontData = {
   { name: "조선굵은명조", value: "'JoseonBoldMyongjo', serif" },
   { name: "마루부리", value: "'MaruBuri', serif" },
   { name: "마포애민", value: "'MapoAemin', serif" },
-  { name: "마포꽃섬", value: "'MapoFlowerIsland', serif" },
+  { name: "이롭게 바탕체", value: "'Iropke Batang', serif" },
   { name: "HS 봄바람체 2.1", value: "'HsBombaram21', serif" },
   { name: "전남교육 또박체", value: "'JeonnamEducationTtobaks', serif" },
   { name: "국립박물관문화재단 클래식", value: "'MuseumCulturalFoundationClassic', serif" },
