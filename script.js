@@ -45,11 +45,16 @@ const fontData = {
     { name: "이서윤체", value: "'IsYun', cursive" }
   ],
   display: [
-    { name: "스타일리시", value: "'Stylish', sans-serif" },
-    { name: "도현", value: "'Do Hyeon', sans-serif" },
-    { name: "블랙한산스", value: "'Black Han Sans', sans-serif" },
-    { name: "해바라기", value: "'Sunflower', sans-serif" }
-  ]
+  { name: "원스토어 모바일POP체", value: "'OneStoreMobilePop', sans-serif" },
+  { name: "문경감홍사과체", value: "'MungyeongGamhongApple', sans-serif" },
+  { name: "창원 단감 아삭체", value: "'ChangwonDanggamAsak', sans-serif" },
+  { name: "파셜산스", value: "'PartialSans', sans-serif" },
+  { name: "푸라닭 젠틀 고딕", value: "'PuradakGentleGothic', sans-serif" },
+  { name: "신촌 랩소디", value: "'SinchonRhapsody', sans-serif" },
+  { name: "어그로체", value: "'Aggravo', sans-serif" },
+  { name: "카페24 클래식타입", value: "'Cafe24ClassicType', serif" },
+  { name: "평창 평화체", value: "'PyeongchangPeace', sans-serif" }
+]
 };
 
 // 폰트 옵션 생성
