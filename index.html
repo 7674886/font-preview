@@ -2,40 +2,51 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>폰트 텍스트 미리보기</title>
+  <title>폰트 미리보기</title>
   <link rel="stylesheet" href="style.css">
 
-  <!-- 무료 웹폰트 -->
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  <!-- Google Fonts (한글) -->
+  <link href="https://fonts.googleapis.com/css2?
+  family=Nanum+Gothic&
+  family=Nanum+Square&
+  family=Noto+Sans+KR&
+  family=IBM+Plex+Sans+KR&
+  family=Nanum+Myeongjo&
+  family=Noto+Serif+KR&
+  family=Song+Myung&
+  family=Gowun+Dodum&
+  family=Gowun+Batang&
+  family=Hi+Melody&
+  family=Sunflower:wght@300;500;700&
+  family=Gaegu&
+  family=Stylish&
+  family=Do+Hyeon&
+  family=Black+Han+Sans&
+  display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
 <div class="wrap">
 
   <h1>폰트 텍스트 미리보기</h1>
-  <p class="desc">
-    아래 입력창에 텍스트를 입력하시면 실제 제작 시 느낌을 미리 확인하실 수 있습니다.
-  </p>
+  <p class="desc">입력한 문구를 실제 제작 느낌으로 미리 확인해보세요.</p>
 
   <div class="option-box">
-    <select id="font">
-      <option value="'Nanum Gothic', sans-serif">나눔고딕</option>
-      <option value="'Nanum Myeongjo', serif">나눔명조</option>
+    <!-- 폰트 스타일 -->
+    <select id="styleSelect">
+      <option value="gothic">고딕체</option>
+      <option value="myeongjo">명조체</option>
+      <option value="hand">손글씨</option>
+      <option value="display">디스플레이</option>
     </select>
 
-    <label>
-      글자크기
-      <input type="range" id="size" min="16" max="80" value="32">
-    </label>
+    <!-- 폰트 종류 -->
+    <select id="fontSelect"></select>
 
-    <label>
-      자간
-      <input type="range" id="spacing" min="-2" max="10" value="0">
-    </label>
-
-    <label>
-      행간
-      <input type="range" id="line" min="1" max="3" step="0.1" value="1.4">
+    <!-- 크기 -->
+    <label class="size">
+      크기
+      <input type="range" id="fontSize" min="16" max="80" value="36">
     </label>
   </div>
 
