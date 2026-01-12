@@ -33,7 +33,7 @@ const fontData = {
   { name: "국립박물관문화재단 클래식", value: "'MuseumCulturalFoundationClassic', serif" },
   { name: "산돌국대떡볶이체", value: "'SandoolGukdaeTteokbokki', serif" }
 ],
-  hand: [
+  handwriting: [
     { name: "tvN 즐거운이야기", value: "'JoyfulStory', cursive" },
     { name: "코트라 희망체", value: "'KotraHope', cursive" },
     { name: "온글잎 밑미", value: "'MitmiFont', cursive" },
