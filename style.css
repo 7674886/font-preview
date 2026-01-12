@@ -1,4 +1,97 @@
 /* =====================
+   MYEONGJO FONTS
+===================== */
+
+/* 나눔명조 */
+@import url('//fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
+/* HS 봄바람체 2.1 */
+@font-face {
+  font-family: 'HsBombaram21';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSBombaram21-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 부크크명조 */
+@font-face {
+  font-family: 'BookkMyungjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 마포애민 */
+@font-face {
+  font-family: 'MapoAemin';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoAgapeA.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 조선신명조 */
+@font-face {
+  font-family: 'JoseonShinmyeongjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.1/ChosunSm.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 마포꽃섬 */
+@font-face {
+  font-family: 'MapoFlowerIsland';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 조선굵은명조 */
+@font-face {
+  font-family: 'JoseonBoldMyongjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKm.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 전남교육 또박체 */
+@font-face {
+  font-family: 'JeonnamEducationTtobaks';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-1@1.0/JNE-Ttobak-TTF-Extrabold.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 리디바탕 */
+@font-face {
+  font-family: 'Ridibatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 국립박물관문화재단 클래식 */
+@font-face {
+  font-family: 'MuseumCulturalFoundationClassic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 산돌국대떡볶이체 */
+@font-face {
+  font-family: 'SandoolGukdaeTteokbokki';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SDKukdetopokki.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 마루부리 */
+@font-face {
+  font-family: 'MaruBuri';
+  src: url('https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+/* =====================
    GOTHIC FONTS
 ===================== */
 
