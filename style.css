@@ -1,4 +1,80 @@
 /* =====================
+   HANDWRITING FONTS
+===================== */
+
+/* tvN 즐거운이야기 */
+@font-face {
+  font-family: 'JoyfulStory';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 코트라 희망체 */
+@font-face {
+  font-family: 'KotraHope';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 온글잎 밑미 */
+@font-face {
+  font-family: 'MitmiFont';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 온글잎 박다현체 */
+@font-face {
+  font-family: 'OngleipParkDahyeon';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 학교안심 꾸러기 */
+@font-face {
+  font-family: 'SchoolSafetyKid';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGgooreogiR.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 배찌체 */
+@font-face {
+  font-family: 'NexonBazzi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/Bazzi.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 전남교육 유나체 */
+@font-face {
+  font-family: 'JeonnamEducationYuna';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-1@1.0/JNE-Yuna-TTF-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 더페이스샵 잉크립퀴드체 */
+@font-face {
+  font-family: 'InkLiquid';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 이서윤체 */
+@font-face {
+  font-family: 'IsYun';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* =====================
    MYEONGJO FONTS
 ===================== */
 
