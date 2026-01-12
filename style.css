@@ -1,3 +1,82 @@
+/* =====================
+   GOTHIC FONTS
+===================== */
+
+/* 엘리스 널리 */
+@import url('https://font.elice.io/css?family=Elice+DX+Neolli');
+
+/* 본고딕 */
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+/* 나눔스퀘어 */
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+/* 블랙 한산스 */
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+
+/* 페이퍼로지 */
+@font-face {
+  font-family: 'Paperozi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-display: swap;
+}
+
+/* 배민 도현 */
+@font-face {
+  font-family: 'Dohyun';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 이사만루 */
+@font-face {
+  font-family: 'Isamanru';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 프리텐다드 */
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 학교안심 곧은제목 */
+@font-face {
+  font-family: 'SchoolSafetyStraightTitle';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGodeunjemokB.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* S-Core Dream */
+@font-face {
+  font-family: 'Escoredream';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* SUIT */
+@font-face {
+  font-family: 'Suit';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Heavy.woff2') format('woff2');
+  font-weight: 900;
+  font-display: swap;
+}
+
+/* G마켓 산스 */
+@font-face {
+  font-family: 'GMarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
 * {
   box-sizing: border-box;
 }
