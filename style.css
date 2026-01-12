@@ -1,3 +1,78 @@
+/* =========================
+   장식체 (제목·포인트용)
+========================= */
+
+/* 원스토어 모바일 POP */
+@font-face {
+  font-family: 'OneStoreMobilePop';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 문경감홍사과 */
+@font-face {
+  font-family: 'MungyeongGamhongApple';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-2@1.0/Mungyeong-Gamhong-Apple.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 창원 단감 아삭체 */
+@font-face {
+  font-family: 'ChangwonDanggamAsak';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 파셜산스 */
+@font-face {
+  font-family: 'PartialSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 푸라닭 젠틀 고딕 */
+@font-face {
+  font-family: 'PuradakGentleGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 신촌 랩소디 */
+@font-face {
+  font-family: 'SinchonRhapsody';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2503@1.0/SinchonRhapsody.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 어그로체 */
+@font-face {
+  font-family: 'Aggravo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* 카페24 클래식타입 */
+@font-face {
+  font-family: 'Cafe24ClassicType';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* 평창 평화체 */
+@font-face {
+  font-family: 'PyeongchangPeace';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
 /* =====================
    HANDWRITING FONTS
 ===================== */
