@@ -187,13 +187,8 @@
   font-display: swap;
 }
 
-/* 마포꽃섬 */
-@font-face {
-  font-family: 'MapoFlowerIsland';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
-  font-weight: normal;
-  font-display: swap;
-}
+/* 이롭게 바탕체 */
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
 
 /* 조선굵은명조 */
 @font-face {
