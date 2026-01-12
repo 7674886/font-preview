@@ -34,9 +34,15 @@ const fontData = {
   { name: "산돌국대떡볶이체", value: "'SandoolGukdaeTteokbokki', serif" }
 ],
   hand: [
-    { name: "고운돋움", value: "'Gowun Dodum', sans-serif" },
-    { name: "하이멜로디", value: "'Hi Melody', cursive" },
-    { name: "가우기", value: "'Gaegu', cursive" }
+    ["tvN 즐거운이야기", "JoyfulStory"],
+    ["코트라 희망체", "KotraHope"],
+    ["온글잎 밑미", "MitmiFont"],
+    ["온글잎 박다현", "OngleipParkDahyeon"],
+    ["학교안심 꾸러기", "SchoolSafetyKid"],
+    ["배찌체", "NexonBazzi"],
+    ["전남교육 유나체", "JeonnamEducationYuna"],
+    ["잉크립퀴드", "InkLiquid"],
+    ["이서윤체", "IsYun"]
   ],
   display: [
     { name: "스타일리시", value: "'Stylish', sans-serif" },
