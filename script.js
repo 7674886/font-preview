@@ -5,12 +5,20 @@ const fontSize = document.getElementById("fontSize");
 
 // 폰트 리스트
 const fontData = {
-  gothic: [
-    { name: "나눔고딕", value: "'Nanum Gothic', sans-serif" },
-    { name: "나눔스퀘어", value: "'Nanum Square', sans-serif" },
-    { name: "Noto Sans KR", value: "'Noto Sans KR', sans-serif" },
-    { name: "IBM Plex Sans KR", value: "'IBM Plex Sans KR', sans-serif" }
-  ],
+ gothic: [
+  { name: "페이퍼로지", value: "'Paperozi', sans-serif" },
+  { name: "프리텐다드", value: "'Pretendard', sans-serif" },
+  { name: "SUIT", value: "'Suit', sans-serif" },
+  { name: "나눔스퀘어", value: "'NanumSquare', sans-serif" },
+  { name: "본고딕", value: "'Noto Sans KR', sans-serif" },
+  { name: "엘리스 널리", value: "'Elice DX Neolli', sans-serif" },
+  { name: "배민 도현", value: "'Dohyun', sans-serif" },
+  { name: "이사만루", value: "'Isamanru', sans-serif" },
+  { name: "학교안심 곧은제목", value: "'SchoolSafetyStraightTitle', sans-serif" },
+  { name: "에스코어드림", value: "'Escoredream', sans-serif" },
+  { name: "G마켓 산스", value: "'GMarketSans', sans-serif" },
+  { name: "블랙 한산스", value: "'Black Han Sans', sans-serif" }
+],
   myeongjo: [
     { name: "나눔명조", value: "'Nanum Myeongjo', serif" },
     { name: "Noto Serif KR", value: "'Noto Serif KR', serif" },
