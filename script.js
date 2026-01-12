@@ -1,21 +1,57 @@
 const preview = document.getElementById("preview");
-const font = document.getElementById("font");
-const size = document.getElementById("size");
-const spacing = document.getElementById("spacing");
-const line = document.getElementById("line");
+const styleSelect = document.getElementById("styleSelect");
+const fontSelect = document.getElementById("fontSelect");
+const fontSize = document.getElementById("fontSize");
 
-font.addEventListener("change", () => {
-  preview.style.fontFamily = font.value;
+// 폰트 리스트
+const fontData = {
+  gothic: [
+    { name: "나눔고딕", value: "'Nanum Gothic', sans-serif" },
+    { name: "나눔스퀘어", value: "'Nanum Square', sans-serif" },
+    { name: "Noto Sans KR", value: "'Noto Sans KR', sans-serif" },
+    { name: "IBM Plex Sans KR", value: "'IBM Plex Sans KR', sans-serif" }
+  ],
+  myeongjo: [
+    { name: "나눔명조", value: "'Nanum Myeongjo', serif" },
+    { name: "Noto Serif KR", value: "'Noto Serif KR', serif" },
+    { name: "송명", value: "'Song Myung', serif" },
+    { name: "고운바탕", value: "'Gowun Batang', serif" }
+  ],
+  hand: [
+    { name: "고운돋움", value: "'Gowun Dodum', sans-serif" },
+    { name: "하이멜로디", value: "'Hi Melody', cursive" },
+    { name: "가우기", value: "'Gaegu', cursive" }
+  ],
+  display: [
+    { name: "스타일리시", value: "'Stylish', sans-serif" },
+    { name: "도현", value: "'Do Hyeon', sans-serif" },
+    { name: "블랙한산스", value: "'Black Han Sans', sans-serif" },
+    { name: "해바라기", value: "'Sunflower', sans-serif" }
+  ]
+};
+
+// 폰트 옵션 생성
+function updateFontList() {
+  fontSelect.innerHTML = "";
+  fontData[styleSelect.value].forEach(font => {
+    const option = document.createElement("option");
+    option.textContent = font.name;
+    option.value = font.value;
+    fontSelect.appendChild(option);
+  });
+  preview.style.fontFamily = fontSelect.value;
+}
+
+// 이벤트
+styleSelect.addEventListener("change", updateFontList);
+
+fontSelect.addEventListener("change", () => {
+  preview.style.fontFamily = fontSelect.value;
 });
 
-size.addEventListener("input", () => {
-  preview.style.fontSize = size.value + "px";
+fontSize.addEventListener("input", () => {
+  preview.style.fontSize = fontSize.value + "px";
 });
 
-spacing.addEventListener("input", () => {
-  preview.style.letterSpacing = spacing.value + "px";
-});
-
-line.addEventListener("input", () => {
-  preview.style.lineHeight = line.value;
-});
+// 초기 실행
+updateFontList();
