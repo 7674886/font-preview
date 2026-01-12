@@ -20,11 +20,19 @@ const fontData = {
   { name: "블랙 한산스", value: "'Black Han Sans', sans-serif" }
 ],
   myeongjo: [
-    { name: "나눔명조", value: "'Nanum Myeongjo', serif" },
-    { name: "Noto Serif KR", value: "'Noto Serif KR', serif" },
-    { name: "송명", value: "'Song Myung', serif" },
-    { name: "고운바탕", value: "'Gowun Batang', serif" }
-  ],
+  { name: "나눔명조", value: "'Nanum Myeongjo', serif" },
+  { name: "부크크명조", value: "'BookkMyungjo', serif" },
+  { name: "리디바탕", value: "'Ridibatang', serif" },
+  { name: "조선신명조", value: "'JoseonShinmyeongjo', serif" },
+  { name: "조선굵은명조", value: "'JoseonBoldMyongjo', serif" },
+  { name: "마루부리", value: "'MaruBuri', serif" },
+  { name: "마포애민", value: "'MapoAemin', serif" },
+  { name: "마포꽃섬", value: "'MapoFlowerIsland', serif" },
+  { name: "HS 봄바람체 2.1", value: "'HsBombaram21', serif" },
+  { name: "전남교육 또박체", value: "'JeonnamEducationTtobaks', serif" },
+  { name: "국립박물관문화재단 클래식", value: "'MuseumCulturalFoundationClassic', serif" },
+  { name: "산돌국대떡볶이체", value: "'SandoolGukdaeTteokbokki', serif" }
+],
   hand: [
     { name: "고운돋움", value: "'Gowun Dodum', sans-serif" },
     { name: "하이멜로디", value: "'Hi Melody', cursive" },
