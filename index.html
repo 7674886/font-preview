@@ -2,22 +2,49 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>폰트 미리보기</title>
+  <title>폰트 텍스트 미리보기</title>
   <link rel="stylesheet" href="style.css">
 
-  <!-- 무료 구글폰트 -->
+  <!-- 무료 웹폰트 -->
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<select id="font">
-  <option value="Nanum Gothic">나눔고딕</option>
-  <option value="Nanum Myeongjo">나눔명조</option>
-</select>
+<div class="wrap">
 
-<textarea id="text" placeholder="텍스트를 입력하세요"></textarea>
+  <h1>폰트 텍스트 미리보기</h1>
+  <p class="desc">
+    아래 입력창에 텍스트를 입력하시면 실제 제작 시 느낌을 미리 확인하실 수 있습니다.
+  </p>
 
-<div id="preview">여기에 미리보기</div>
+  <div class="option-box">
+    <select id="font">
+      <option value="'Nanum Gothic', sans-serif">나눔고딕</option>
+      <option value="'Nanum Myeongjo', serif">나눔명조</option>
+    </select>
+
+    <label>
+      글자크기
+      <input type="range" id="size" min="16" max="80" value="32">
+    </label>
+
+    <label>
+      자간
+      <input type="range" id="spacing" min="-2" max="10" value="0">
+    </label>
+
+    <label>
+      행간
+      <input type="range" id="line" min="1" max="3" step="0.1" value="1.4">
+    </label>
+  </div>
+
+  <textarea id="preview">
+텍스트를 입력해 주세요.
+여러 줄 입력도 가능합니다.
+  </textarea>
+
+</div>
 
 <script src="script.js"></script>
 </body>
