@@ -91,6 +91,13 @@
 /* =====================
    HANDWRITING FONTS
 ===================== */
+/*kcc 무럭무럭체*/
+@font-face {
+    font-family: 'KccMurukMuruk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
 /*그리운 몽토리체*/
 @font-face {
     font-family: 'NostalgicMongtori';
