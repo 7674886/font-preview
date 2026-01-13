@@ -39,7 +39,7 @@ const fontData = {
     { name: "손글씨03", value: "'MitmiFont', cursive" },
     { name: "손글씨04", value: "'OngleipParkDahyeon', cursive" },
     { name: "손글씨05", value: "'SchoolSafetyKid', cursive" },
-    { name: "손글씨06, value: "'NexonBazzi', cursive" },
+    { name: "손글씨06", value: "'NexonBazzi', cursive" },
     { name: "손글씨07", value: "'JeonnamEducationYuna', cursive" },
     { name: "손글씨08", value: "'InkLiquid', cursive" },
     { name: "손글씨09", value: "'IsYun', cursive" }
@@ -53,7 +53,7 @@ const fontData = {
   { name: "장식체06", value: "'SinchonRhapsody', sans-serif" },
   { name: "장식체07", value: "'Aggravo', sans-serif" },
   { name: "장식체08", value: "'Cafe24ClassicType', serif" },
-  { name: "장식체09, value: "'PyeongchangPeace', sans-serif" }
+  { name: "장식체09", value: "'PyeongchangPeace', sans-serif" }
 ]
 };
 
