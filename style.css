@@ -91,6 +91,13 @@
 /* =====================
    HANDWRITING FONTS
 ===================== */
+/*온글잎 바닷바람*/
+@font-face {
+    font-family: 'OngleIpSeaBreeze';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2510-1@1.0/Ownglyph_the_sea_breeze-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
 /*온글잎 데이지*/
 @font-face {
     font-family: 'OngleebDaisy';
