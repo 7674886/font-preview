@@ -91,6 +91,13 @@
 /* =====================
    HANDWRITING FONTS
 ===================== */
+/*그리운 몽토리체*/
+@font-face {
+    font-family: 'NostalgicMongtori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-1@1.0/Griun_Mongtori-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
 /*대구 동성로*/
 @font-face {
     font-family: 'DaeguDongseongRo';
