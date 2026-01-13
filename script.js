@@ -34,7 +34,7 @@ const fontData = {
   { name: "명조체12", value: "'SandoolGukdaeTteokbokki', serif" }
 ],
   handwriting: [
-    { name: "손글씨01", value: "'JoyfulStory', cursive" },
+    { name: "손글씨01", value: "'NostalgicMongtori', cursive" },
     { name: "손글씨02", value: "'KotraHope', cursive" },
     { name: "손글씨03", value: "'MitmiFont', cursive" },
     { name: "손글씨04", value: "'OngleipParkDahyeon', cursive" },
