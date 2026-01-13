@@ -1,3 +1,18 @@
+/* ===== IMPORT ZONE (무조건 최상단) ===== */
+/* 엘리스 널리 */
+@import url('https://font.elice.io/css?family=Elice+DX+Neolli');
+
+/* 본고딕 */
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+/* 나눔스퀘어 */
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@latest/nanumsquare.css');
+
+/* 블랙 한산스 */
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+
+/* 나눔명조 */
+@import url('//fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
 /* =========================
    장식체 (제목·포인트용)
 ========================= */
@@ -153,8 +168,7 @@
    MYEONGJO FONTS
 ===================== */
 
-/* 나눔명조 */
-@import url('//fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
+
 /* HS 봄바람체 2.1 */
 @font-face {
   font-family: 'HsBombaram21';
@@ -261,17 +275,7 @@
    GOTHIC FONTS
 ===================== */
 
-/* 엘리스 널리 */
-@import url('https://font.elice.io/css?family=Elice+DX+Neolli');
 
-/* 본고딕 */
-@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
-
-/* 나눔스퀘어 */
-@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
-
-/* 블랙 한산스 */
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
 
 /* 페이퍼로지 */
 @font-face {
