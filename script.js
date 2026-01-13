@@ -38,7 +38,7 @@ const fontData = {
     { name: "손글씨02", value: "'KotraHope', cursive" },
     { name: "손글씨03", value: "'MitmiFont', cursive" },
     { name: "손글씨04", value: "'OngleipParkDahyeon', cursive" },
-    { name: "손글씨05", value: "'SchoolSafetyKid', cursive" },
+    { name: "손글씨05", value: "'OngleebDaisy', cursive" },
     { name: "손글씨06", value: "'NexonBazzi', cursive" },
     { name: "손글씨07", value: "'JeonnamEducationYuna', cursive" },
     { name: "손글씨08", value: "'InkLiquid', cursive" },
