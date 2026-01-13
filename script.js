@@ -41,7 +41,7 @@ const fontData = {
     { name: "손글씨05", value: "'OngleebDaisy', cursive" },
     { name: "손글씨06", value: "'NexonBazzi', cursive" },
     { name: "손글씨07", value: "'OngleIpSeaBreeze', cursive" },
-    { name: "손글씨08", value: "'InkLiquid', cursive" },
+    { name: "손글씨08", value: "'DaeguDongseongRo', cursive" },
     { name: "손글씨09", value: "'IsYun', cursive" }
   ],
   display: [
