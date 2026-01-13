@@ -304,7 +304,7 @@
 /* 프리텐다드 */
 @font-face {
   font-family: 'Pretendard';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+  src: url('https://cdn.jsdelivr.net/npm/pretendard@latest/dist/web/static/pretendard.css') format('woff2');
   font-weight: 700;
   font-display: swap;
 }
