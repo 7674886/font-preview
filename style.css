@@ -91,6 +91,13 @@
 /* =====================
    HANDWRITING FONTS
 ===================== */
+/*대구 동성로*/
+@font-face {
+    font-family: 'DaeguDongseongRo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/DaeguDongseongro-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
 /*온글잎 바닷바람*/
 @font-face {
     font-family: 'OngleIpSeaBreeze';
